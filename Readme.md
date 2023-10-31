@@ -9,7 +9,7 @@ API in Python, using:
 * Docker (containerization)
 * Docker Compose (to run the application and the database in containers)
 
-####Diagram
+#### Diagram
 ![](doc_img/abb_app_diagram.png)
 
 #### app.py 
