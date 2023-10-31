@@ -1,0 +1,15 @@
+<!doctype html>
+<html>
+    <head>
+        <title>{{ title }}</title>
+    </head>
+    <body>
+        <p> Counter: {{visitors|length}}</p>
+        <ol>
+            {% for visitor in visitors %}
+            <li> {{visitor.remote_addr}} | {{visitor.user_agent}}</li>
+            <br> <br>
+            {% endfor %}
+        </ol>
+    </body>
+</html>
